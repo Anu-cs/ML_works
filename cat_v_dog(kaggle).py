@@ -81,7 +81,7 @@ pick.close()
  
 
 
-
+#opening the model
 pick= open('model.sav','rb')
 model1= pickle.load(pick)
 pick.close()
